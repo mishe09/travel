@@ -1,0 +1,317 @@
+body {
+    margin: 0;
+  background-color: white;
+}
+
+.first-conatiner{
+  background-image: url('/Rectangle.png');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+ .logo{
+  height: 45px;
+} 
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px  120px;
+}
+
+.nav-links{
+  list-style: none;       
+  display: flex;          
+  gap: 20px;              
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-links li a::after{
+  content: '';
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 120, 71);
+   transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+.nav-btn{
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+}
+
+.honey-btn{
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+
+.sec-btn{
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 0px 50px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  margin-left: 52px;
+}
+
+.h1-hero{
+  color: white;
+}
+
+
+.body-container{
+  margin: 40px 120px;
+}
+
+.travel-info{
+  background-color: rgb(212, 212, 212);
+  border: 1px solid white;
+  gap: 0px;
+  display: inline-flex;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.travel-info p + p::before {
+  content: '|';
+  color: white;     
+  padding: 0 32px;
+}
+
+.clients{
+  margin-top: 20px;
+  width: 450px;
+}
+
+.logoFlex{
+  background-color: rgb(195, 195, 195);
+  padding: 50px 50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-size{
+  width: 165px;
+  height: 50px;
+}
+
+.Heading{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.heading-p{
+  color: rgb(255, 120, 71);
+}
+
+.cards{
+  margin: 50px 100px;
+  gap: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.card-wrapper{
+  position: relative;
+  display: inline-block; 
+}
+
+.card-1{
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease; 
+  border: none; 
+  transform: scale(1); 
+  z-index: 2; 
+  background-color: white; 
+}
+
+.card-2{
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease; 
+  border: none; 
+  transform: scale(1); 
+  z-index: 2; 
+  background-color: white;  
+}
+
+.card-3{
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease; 
+  border: none; 
+  transform: scale(1); 
+  z-index: 2; 
+  background-color: white; 
+}
+
+.card-4{
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease; 
+  border: none; 
+  transform: scale(1); 
+  z-index: 2; 
+  background-color: white; 
+}
+
+.card-hoover-1{
+  position: absolute;
+  bottom: -20px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  opacity: 0; 
+  transition: all 0.3s ease-in-out;
+  z-index: 0; 
+  pointer-events: none;
+}
+
+.card-1:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+} 
+
+.card-2:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.card-3:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.card-4:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover{
+  border: 1px solid whitesmoke; 
+  transform: scale(1.05); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); 
+  border-radius: 12px;
+  padding: 10px;
+}
+
+
+.img-div{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.p-div{
+  padding-top: 10px;
+}
+
+.card-img{
+  width: 72px;
+  height: 72px;
+}
+
+.card-decor{
+  position: absolute;
+  left: 70px;
+  top: 35px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+.card-decor-2{
+  position: absolute;
+  left: 30px;
+  top: 10px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+.card-decor-3{
+position: absolute;
+  right:10px;
+  bottom: 0px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+
+.honeymoon-div{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin: 100px 0px;
+}
+
+.honeymoon-img{
+  width: 671px;
+  height: 477px;
+}
+
+.honeymoon-p{
+  text-align: left;
+}
+
+
+.resort-div{
+}
+
+.destination-div-1{
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.destination-div-2{
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.destination-div-3{
+  display: inline-flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.plane-img{
+  width: 880px;
+  height: 600px;
+}
