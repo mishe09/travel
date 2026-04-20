@@ -1,0 +1,539 @@
+@font-face {
+   font-family: "Yesteryear";
+  src: url("/honeymoon-assets/Yesteryear.ttf") format("truetype");
+}
+
+.gallery-link{
+  color: rgb(255, 120, 71) !important;
+  font-weight: 900 !important;
+}
+
+.gallery-icon{
+  color: rgb(255, 120, 71) !important;
+  font-weight: 900 !important;
+}
+
+
+/* view-port view */
+.honeymoon-first-container {
+ background-image: url("/honeymoon-assets/landscape.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.honeymoon-hero-p{
+ margin-top: 0;       
+  position: relative;  
+  z-index: 2;         
+}
+
+.honeymoon-hero-p p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.honeymoon-hero-p h1{
+    font-family: Yesteryear;
+    font-size: 127px;
+    font-weight: 400;
+    line-height: 173.68px;
+}
+
+.header-flex{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hfive{
+    color: rgb(255, 120, 71);
+}
+
+.span-hfive{
+    color: #aaa;
+  opacity: 0.7; 
+  font-size: 12px;
+}
+
+.info-div{
+    margin-top: 20px;
+}
+
+.flex-div-1{
+    display: flex;
+    align-items: center;
+    gap: 167px;
+}
+
+.flex-div-2{
+    display: flex;
+    align-items: center;
+    gap: 183px;
+}
+
+.flex-div-3{
+    display: flex;
+    align-items: center;
+    gap: 143px;
+}
+
+.flex-div-4{
+    display: flex;
+    align-items: center;
+    gap: 168px;
+}
+
+.flex-div-5{
+    display: flex;
+    align-items: center;
+    gap: 169px;
+}
+
+.flex-div-6{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+
+.flex-div-7{
+    display: flex;
+    align-items: center;
+    gap: 182px;
+}
+
+.flex-div-8{
+    display: flex;
+    align-items: center;
+    gap: 245px;
+}
+
+
+
+.flex-div h6{
+    color: rgb(255, 120, 71);
+}
+
+.flex2-div{
+    display: flex;
+    gap: 40px;
+}
+
+.flex2a-div{
+    display: flex;
+    gap: 93px;
+}
+
+.flex2b-div{
+    display: flex;
+    gap: 123px;
+}
+
+.pictures{
+    margin-top: 70px;
+}
+
+
+/* bento-grid */
+
+.bento-grid{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 180px;
+    margin-bottom: 250px;
+    gap: 1rem;
+    grid-template-areas: 'box1 box2 box2'
+                          'box3 box2 box2'
+                          'box4 box2 box2'
+                          'box5 box5 box6'
+                          'box7 box7 box7';
+
+}
+
+
+.imagee-1{
+    grid-area: box1;
+    background-image: url("/gallery-assets/imagee-1.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.iamgee-1:hover{
+    background-size: 110%;
+
+}
+
+
+.imagee-2{
+    grid-area: box2;
+    background-image: url("/gallery-assets/imagee-2.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-2:hover{
+    background-size: 110%;
+
+}
+
+
+
+.imagee-3{
+    grid-area: box3;
+    background-image: url("/gallery-assets/imagee-3.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-3:hover{
+    background-size: 110%;
+
+}
+
+
+.imagee-4{
+    grid-area: box4;
+    background-image: url("/gallery-assets/imagee-4.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-4:hover{
+    background-size: 110%;
+
+}
+
+.imagee-5{
+    grid-area: box5;
+    background-image: url("/gallery-assets/imagee-5.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-5:hover{
+    background-size: 110%;
+
+}
+
+.imagee-6{
+    grid-area: box6;
+    background-image: url("/gallery-assets/imagee-6.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-6:hover{
+    background-size: 110%;
+
+}
+
+.imagee-7{
+    grid-area: box7;
+    background-image: url("/gallery-assets/imagee-7.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: 0.5s ease-in-out;
+}
+
+.imagee-7:hover{
+    background-size: 110%;
+
+}
+
+.btn-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .intro-p {
+    font-size: 15px;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+
+  .info-div {
+    font-size: 14px;
+  }
+
+  .info-div .flex-div-1,
+  .info-div .flex-div-2,
+  .info-div .flex-div-3,
+  .info-div .flex-div-4,
+  .info-div .flex-div-5,
+  .info-div .flex-div-6,
+  .info-div .flex-div-7,
+  .info-div .flex-div-8 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .info-div h6 {
+    font-size: 15px;
+  }
+
+  .info-div p {
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .flex2-div,
+  .flex2a-div,
+  .flex2b-div {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .honeymoon-hero-p h1 {
+    font-size: 70px;
+    line-height: 1.2;
+  }
+
+  .honeymoon-hero-p p {
+    font-size: 16px;
+  }
+
+  .header-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .info-div p,
+  .pictures p {
+    font-size: 14px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+
+  .bento-grid {
+    grid-template-areas:
+      "box1 box2"
+      "box3 box4"
+      "box5 box6";
+    grid-auto-rows: 150px;
+  }
+}
+
+/* Mobile (425px) */
+@media (max-width: 425px) {
+  .intro-p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .info-div {
+    font-size: 13px;
+  }
+
+  .info-div h6 {
+    font-size: 14px;
+  }
+
+  .info-div p {
+    font-size: 13px;
+    word-break: break-word;
+  }
+
+  .flex2-div,
+  .flex2a-div,
+  .flex2b-div {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .honeymoon-hero-p h1 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .honeymoon-hero-p p {
+    font-size: 14px;
+  }
+
+  .info-div p,
+  .pictures p {
+    font-size: 13px;
+    line-height: 1.4;
+    word-break: break-word;
+  }
+
+  .info-div h6 {
+    font-size: 14px;
+  }
+
+  .bento-grid {
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6";
+    grid-auto-rows: 180px;
+  }
+}
+
+/* Smallest Mobile (375px) */
+@media (max-width: 375px) {
+  .intro-p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .info-div h6 {
+    font-size: 13px;
+  }
+
+  .info-div p {
+    font-size: 12px;
+  }
+
+  .flex2-div,
+  .flex2a-div,
+  .flex2b-div {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .honeymoon-hero-p h1 {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+
+  .honeymoon-hero-p p {
+    font-size: 13px;
+  }
+
+  
+
+  .info-div p,
+  .pictures p {
+    font-size: 12px;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+  .info-div h6 {
+    font-size: 13px;
+  }
+
+  .bento-grid {
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6";
+    grid-auto-rows: 150px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .bento-grid {
+    display: grid;
+    grid-template-areas:
+      "box1 box1"
+      "box2 box2"
+      "box3 box3"
+      "box4 box4"
+      "box5 box6"
+      "box7 box7";
+    grid-auto-rows: 150px;
+    gap: 10px;
+    margin-bottom: 150px;
+  }
+}
+
+/* Mobile 425px */
+@media (max-width: 425px) {
+  .bento-grid {
+    display: grid;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7";
+    grid-auto-rows: 120px;
+    gap: 8px;
+    margin-bottom: 120px;
+  }
+}
+
+/* Smallest Mobile 375px */
+@media (max-width: 376px) {
+  .bento-grid {
+    display: grid;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3"
+      "box4"
+      "box5"
+      "box6"
+      "box7";
+    grid-auto-rows: 100px;
+    gap: 6px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+}
+
+/* Make sure each image fills its grid area */
+.bento-grid > div {
+  width: 100%;
+  height: 100%;
+}

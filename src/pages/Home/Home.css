@@ -1,0 +1,1176 @@
+/* view-port view */
+.home-first-container {
+  background-image: url("/Rectangle.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.home-body-container {
+  padding-top: 10rem;
+  margin: 0 8vw;
+}
+
+/* buttons */
+.home-honey-btn {
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.home-honey-btn:hover {
+  background-color: rgba(243, 243, 243, 0.9);
+}
+
+.home-honeymoon-btn {
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.home-honeymoon-btn:hover {
+  background-color: rgba(243, 243, 243, 0.9);
+}
+
+.home-trans-btn {
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 200;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid white;
+}
+
+.home-trans-btn:hover {
+  background-color: rgb(255, 120, 71);
+}
+
+.home-sec-btn {
+  background-color: rgb(255, 120, 71);
+  color: white;
+  padding: 0 3rem;
+  border: none;
+  font-weight: 200;
+  border-radius: 0.3rem;
+  margin-left: 3.2rem;
+  height: 3.5rem;
+  width: 11rem;
+  font-size: 1rem;
+}
+
+.home-sec-btn:hover {
+  background-color: rgba(243, 243, 243, 0.6);
+}
+
+/* heads */
+
+.home-Heading {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.home-heading-p {
+  color: rgb(255, 120, 71);
+}
+
+
+
+/* travel-info */
+
+.home-h1-hero {
+  color: white;
+}
+
+.home-travel-info {
+  background-color: rgba(243, 243, 243, 0.6);
+  border: 1px solid white;
+  display: inline-flex;
+  color: white;
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+}
+
+.home-travel-info p {
+  margin-top: 1rem;
+}
+
+.home-travel-info p + p::before {
+  content: "|";
+  color: white;
+  padding: 0 1rem;
+}
+
+.home-client-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+  gap: 1rem;
+  width: 90%;
+  margin-top: 10px;
+}
+
+.home-client-div p {
+  margin-top: 10px;
+}
+
+.home-clients {
+  display: block;
+  margin-top: 1.2rem;
+  width: 12rem;
+  height: 36px;
+  margin-top: 0;
+}
+
+/* logos */
+
+.home-logoFlex {
+  background-color: rgb(195, 195, 195);
+  padding: 50px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-logo-size {
+  width: 143px;
+  height: 50px;
+}
+
+/* cards */
+
+.home-cards {
+  margin: 0rem 4rem;
+  gap: 1.5rem;
+  margin-top: 100px;
+}
+
+.home-card-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.home-card-1 {
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  transform: scale(1);
+  z-index: 2;
+  background-color: white;
+  box-sizing: border-box;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card-2 {
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  transform: scale(1);
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card-3 {
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  transform: scale(1);
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-card-4 {
+  position: relative;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: none;
+  transform: scale(1);
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-hoover-1 {
+  position: absolute;
+  bottom: -20px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.home-card-1:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.home-card-2:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.home-card-3:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.home-card-4:hover + .card-hoover-1 {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.home-card-1:hover,
+.home-card-2:hover,
+.home-card-3:hover,
+.home-card-4:hover {
+  border: 1px solid whitesmoke;
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.home-img-div {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.p-div {
+  padding-top: 10px;
+}
+
+.home-card-img {
+  width: 72px;
+  height: 72px;
+}
+
+.card-decor {
+  position: absolute;
+  left: 40px;
+  top: 35px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+.card-decor-2 {
+  position: absolute;
+  left: -15px;
+  top: 5px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+.card-decor-3 {
+  position: absolute;
+  right: -30px;
+  bottom: 0px;
+  width: 49px;
+  height: 50px;
+  z-index: -1;
+}
+
+/* honeymoon */
+.home-honeymoon-div {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin: 120px 50px;
+}
+
+.home-honeymoon-img {
+  width: 671px;
+  height: 477px;
+}
+
+.home-honeymoon-p {
+  text-align: left;
+  margin-right: 150px;
+}
+
+/* resort-div */
+
+.home-resort-div {
+  margin-top: 100px;
+  margin-left: 110px;
+  display: flex;
+  gap: 35px;
+}
+
+.home-restort-header{
+  margin-top: 2rem;
+}
+
+.col-flex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.destination-div-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plane-img {
+  width: 780px;
+  height: 620px;
+  margin-top: 0rem;
+}
+
+/* liberty-div */
+
+.liberty-div {
+  background-image: url("/pix.png");
+  background-position: center;
+  height: 350px;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.h1-div {
+  position: relative;
+}
+
+.home-z-line {
+  position: absolute;
+  height: 41px;
+  width: 352px;
+  top: 9rem;
+  left: 31rem;
+}
+
+.home-liberty-h1 {
+  font-size: 60px;
+  padding-left: 130px;
+}
+
+/* promotion */
+
+.home-promotion {
+  position: relative;
+  margin-top: 150px;
+  margin-left: 110px;
+}
+
+.promo-card-1 {
+  height: 191px;
+  width: 187px;
+  background-image: url("/bigben1.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.promo-card-2 {
+  height: 191px;
+  width: 187px;
+  background-image: url("/bigben.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.promo-card-3 {
+  height: 191px;
+  width: 187px;
+  background-image: url("/promo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.promo-card-4 {
+  height: 191px;
+  width: 187px;
+  background-image: url("/l-img.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  position: relative;
+}
+
+.row {
+  gap: 30px;
+}
+
+.promo-card-1 a,
+.promo-card-2 a,
+.promo-card-3 a,
+.promo-card-4 a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(255, 120, 71);
+  color: white;
+}
+
+.promo-img {
+  position: absolute;
+  width: 396px;
+  height: 560px;
+  top: 0;
+  right: 60px;
+  z-index: -1;
+}
+
+/* explore-div */
+
+.img-div {
+  margin-top: 150px;
+  display: flex;
+}
+
+.nature {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/explore.png);
+  background-position: center;
+  background-size: cover;
+  height: 399px;
+  width: 50%;
+}
+
+.cities {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/cities.png);
+  background-position: center;
+  background-size: cover;
+  height: 399px;
+  width: 50%;
+}
+
+.home-nature-content {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.line-div {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.linee {
+  position: absolute;
+  top: 45px;
+  width: 170px;
+}
+
+/* trendy-div */
+
+.trendy-div {
+  margin-top: 150px;
+   display: flex;
+  flex-direction: column; 
+}
+
+
+
+.trendy-heading {
+  text-align: center;
+}
+
+.trend-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.trendy-image {
+  width: 312px;
+  height: 290px;
+}
+
+.trend-img-div {
+  position: relative;
+  display: inline-block;
+}
+
+.swizz-image {
+  position: absolute;
+  width: 76px;
+  height: 76px;
+  border-radius: 100%;
+  left: 10px;
+  bottom: 0;
+  bottom: -48px;
+}
+
+.div-1 {
+  display: flex;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.div-2a {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.div-2b {
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+.div-2c {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+}
+
+.location-img {
+  height: 27px;
+  width: 27px;
+}
+
+.location-div {
+  display: flex;
+  gap: 5px;
+}
+
+.moni-div {
+  display: flex;
+  gap: 35px;
+  color: rgb(177, 177, 177);
+}
+
+/* client-div */
+
+.client {
+  margin-top: 150px;
+  background-image: url(/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 770px;
+}
+
+.client-heading {
+  padding-top: 130px;
+  text-align: center;
+}
+
+.apos-p {
+  position: relative;
+}
+
+.apo-img {
+  position: absolute;
+  left: -10px;
+  top: -20px;
+}
+
+.custom-arrow-1 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #646464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 5;
+  left: -30px;
+}
+
+.custom-arrow-2 {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #646464;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1 !important;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  z-index: 5;
+  right: -30px;
+}
+
+.custom-arrow i {
+  font-size: 20px;
+  color: #333;
+}
+
+.prev-arrow {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.next-arrow {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) grayscale(100);
+}
+
+.carosel-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f9fa;
+}
+
+#testimonialCarousel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Move indicators outside under the carousel */
+#testimonialCarousel .carousel-indicators {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+#testimonialCarousel .carousel-indicators .active {
+  opacity: 1;
+  background-color: rgb(255, 120, 71);
+}
+
+/* media query */
+
+@media (max-width: 1024px) {
+
+  .home-body-container {
+    padding-top: 9rem;
+    margin: 0 5vw;
+  }
+
+  .home-h1-hero {
+    font-size: 2.5rem;
+  }
+
+  .home-destination-p {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .home-client-div {
+    gap: 0.8rem;
+    font-size: 0.95rem;
+    width: 85%;
+  }
+
+  .home-client-div img.home-clients {
+    width: 4.6875rem;
+    height: 1.25rem;
+  }
+
+  .home-logoFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  .home-logo-size {
+    width: 10rem;
+    height: auto;
+  }
+
+  .home-cards {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 80px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-card-1,
+  .home-card-2,
+  .home-card-3,
+  .home-card-4 {
+    width: 90%;
+  }
+
+  .home-card-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-decor,
+  .card-decor-2,
+  .card-decor-3 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .home-honeymoon-div {
+    gap: 50px;
+  }
+
+  .home-honeymoon-img {
+    width: 500px;
+    height: auto;
+  }
+
+  .col-flex {
+    margin-bottom: 20px;
+  }
+
+  .plane-img {
+    width: 600px;
+    height: auto;
+  }
+
+  .home-liberty-h1 {
+    font-size: 50px;
+    padding-left: 80px;
+  }
+
+  .home-z-line {
+    position: absolute;
+    height: 31px;
+    width: 300px;
+    top: 7.8rem;
+    left: 23rem;
+  }
+
+  .trend-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+
+
+  
+@media (max-width: 768px) {
+
+  .home-body-container {
+    padding-top: 4rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    width: 100%;
+  }
+
+  .home-body-container img.wavy {
+    max-width: 80%;
+    height: 0.8rem;
+  }
+
+  .home-h1-hero {
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 0.5rem;
+  }
+
+  .home-travel-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    gap: 0.8rem;
+    width: 100%;
+    max-width: 21.875rem;
+    position: relative;
+    top: auto;
+    margin-top: 0.2rem;
+  }
+
+  .home-travel-info p {
+    font-size: 0.85rem;
+  }
+
+  .home-travel-info p + p::before {
+    content: none;
+  }
+
+  .home-sec-btn {
+    width: 90%;
+    display: none;
+    align-self: center;
+    margin-top: 0.225rem;
+    display: block;
+    height: 1.9rem;
+    margin: auto;
+  }
+
+  .home-clients {
+    width: 17rem;
+  }
+
+  .home-client-div {
+    justify-content: center;
+    text-align: center;
+    width: 90%;
+  }
+
+  .home-client-div p {
+    font-size: 0.9rem;
+  }
+
+  .home-client-div img.home-clients {
+    width: 2.8125rem;
+  }
+
+  .home-logoFlex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .home-logo-size {
+    width: 90px;
+    height: auto;
+  }
+
+  .home-cards {
+    margin: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 80px;
+  }
+
+  .home-card-1,
+  .home-card-2,
+  .home-card-3,
+  .home-card-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .home-card-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-decor,
+  .card-decor-2,
+  .card-decor-3 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .card-decor{
+    left: 20px;
+  }
+
+  .home-honeymoon-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 80px 0;
+    text-align: center;
+  }
+
+  .home-honeymoon-p {
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .home-restort-header {
+    text-align: center;
+  }
+
+  .home-home-honeymoon-img {
+    width: 90%;
+    max-width: 350px;
+  }
+
+  .plane-img {
+    width: 90%;
+    max-width: 500px;
+    margin-top: 20px;
+  }
+
+  .home-liberty-h1 {
+    font-size: 38px;
+    padding-left: 20px;
+    text-align: center;
+  }
+
+  .home-resort-div {
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .destination-div-2 {
+    width: 90%;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .home-z-line {
+    position: absolute;
+    height: 27px;
+    width: 210px;
+    top: 6rem;
+    left: 13rem;
+  }
+
+  .img-div {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .cities,
+  .nature {
+    width: 100%;
+  }
+
+  .linee {
+    position: absolute;
+    top: 35px;
+    width: 150px;
+  }
+
+  .div-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+
+  .div-2a {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+
+  .div-2b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+  }
+
+  .div-2c {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .col-flex{
+    margin-left: 20px;
+  }
+}
+
+/* Mobile - 425px */
+@media (max-width: 425px) {
+
+  .home-body-container {
+    padding-top: 5rem;
+    margin: 0 0.125rem;
+  }
+
+  .home-h1-hero {
+    font-size: 0.8rem;
+  }
+
+  .home-travel-info {
+    width: 100%;
+    flex-direction: column;
+    padding: 0.8rem;
+  }
+
+  .home-travel-info p + p::before {
+    content: "";
+    padding: 0;
+  }
+
+  .home-client-div {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .home-client-div p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+
+  .home-client-div img.home-clients {
+    width: 2.8125rem;
+  }
+
+  .home-logoFlex {
+    padding: 30px 10px;
+    gap: 15px;
+  }
+
+  .home-logo-size {
+    width: 70px;
+  }
+
+  .home-cards {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin: 20px;
+  }
+
+  .home-card-1,
+  .home-card-2,
+  .home-card-3,
+  .home-card-4 {
+    width: 100%;
+  }
+
+  .home-card-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-decor,
+  .card-decor-2,
+  .card-decor-3 {
+    width: 30px;
+    height: 30px;
+  }
+
+  .home-honeymoon-div {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .plane-img {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .home-honeymoon-img{
+     width: 100%;
+    max-width: 100%;
+    margin-right: 50px;
+  }
+
+  .home-honeymoon-p {
+    text-align: center;
+  }
+
+  .home-liberty-h1 {
+    font-size: 28px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .resort-div {
+    flex-direction: column;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .destination-div-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-promo-p-div {
+    margin-right: 60px;
+    text-align: center;
+  }
+
+
+  .home-sec-btn,
+  .home-honey-btn {
+    width: 100%;
+  }
+
+  .home-logoFlex {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .home-z-line {
+    position: absolute;
+    height: 27px;
+    width: 170px;
+    top: 70px;
+    left: 10.5rem;
+  }
+}
+}
+
