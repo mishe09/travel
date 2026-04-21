@@ -1,6 +1,6 @@
 // MusicPackage.jsx
 import React from "react";
-import "./MusicPackage.css";
+import "./Musicpackage.css";
 
 export default function MusicPackage() {
   return (
